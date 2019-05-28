@@ -16,6 +16,13 @@ Install the dependencies (Flask,Flask-Login and FlaskMigrate)
 ```sh
 $ pip install -r requirements.txt 
 ```
+start the sever 
+
+```sh
+$ python run.py
+```
+
+
 #### Setting up your PostgreSQL database 
  make sure PostgreSQL is started 
 

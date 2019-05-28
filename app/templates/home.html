@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block main %}
+<p>
+    Data from client
+   {{data}} <br>
+   lat : {{lat}} lon :{{longg}} avg :{{avg}}<br>
+   {{dbm}}<br>
+   {{dist}}<br>
+   {{dist2}}<br>
+   {{avg}}
+</p>
+
+
+
+<iframe style="width: 2000px; height: 2000px;  margin-left: 155px;" src="https://www.mapdevelopers.com/draw-circle-tool.php?circles=%5B%5B{{avg}}%2C{{lat}}%2C{{longg}}%2C%22%23AAAAAA%22%2C%22%23000000%22%2C0.4%5D%5D"></iframe> 
+{% endblock %}
