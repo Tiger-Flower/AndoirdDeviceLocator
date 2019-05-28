@@ -1,5 +1,5 @@
-# AndoirdDeviceLocator
-Server Side Andoird Device Locator
+# WIFIDeviceLocator
+Server Side WIFI Device Locator
 
 ## Installation
 Navigate to the folder with the code you just cloned and setup a virtual environment.
